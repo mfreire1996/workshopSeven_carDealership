@@ -19,6 +19,7 @@ JOIN vehicles v ON i.VIN = v.VIN
 WHERE v.make LIKE 'Ford'
 AND v.model = 'Fusion';
 
+--  Interesting querie
 SELECT d.name AS dealership_name,
        d.address,
        v.VIN,
